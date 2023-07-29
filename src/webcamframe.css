@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #04D181;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.MainBox {
+    border: 7px solid #04D181;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}

@@ -1,11 +1,11 @@
 import './App.css';
 import WebcamFrame from './webcamframe';
-
+import {useMediaQuery} from 'react-responsive';
 
 function App() {
   return (
-    <div className="App">
-   
+    <div>
+      <WebcamFrame />
     </div>
   );
 }
