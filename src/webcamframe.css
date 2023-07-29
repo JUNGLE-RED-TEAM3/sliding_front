@@ -1,14 +1,78 @@
-h1{
-    text-align: center;
+.Header{
+    display:flex
+}
+
+.Header h1{
+    text-align: left;
     font-size: 50px;
+    margin-top: 0px;
     color: #04D181;
     font-family: 'Roboto', sans-serif;
 }
 
+.Header .NavBar{
+    border: 5px solid #aa11c9;
+    border-radius: 20px;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .NavBar .NavTimer{
+    border: 3px solid #aa11c9;
+    border-radius: 10px;
+
+    text-align: center;
+    width: 200px;
+}
+
+.Header .NavBar .NavScore1{
+    border: 3px solid #aa11c9;
+    border-radius: 10px;
+
+    text-align: center;
+
+    width: 200px;
+}
+
+.Header .NavBar .NavScore2{
+    border: 3px solid #aa11c9;
+    border-radius: 10px;
+
+    text-align: center;
+
+    width: 200px;
+}
+
+
+
 
 .MainBox {
     border: 7px solid #04D181;
-    width: 1000px;
-    height: 600px;
+    width: 1400px;
+    height: 550px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.MainBox .WebcamBoxForPuzzle{
+    border: 2px solid #ee6e05;
+    width: 650px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+.MainBox .WebcamBoxForDalgona{
+    border: 2px solid #ee6e05;
+    width: 650px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    float: left;
 }
