@@ -9,6 +9,7 @@ const WebcamFrame = () => {
             <div className='WebcamBoxForPuzzle'></div>
             <div className='WebcamBoxForDalgona'></div>
         </div>
+        {/* 진짜 이러지마 */}
     </div>
     );
 };
